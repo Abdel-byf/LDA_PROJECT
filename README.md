@@ -12,7 +12,8 @@ Conducted an in-depth review and analysis of a scientific paper on LDA, particul
 Cleaned and prepared textual data from two sources:
 - The 20 Newsgroups dataset
 - Novels by Albert Camus (The Rebel, The Misunderstanding, The Myth Of Sisyphus)
-<img src="https://github.com/Abdel-byf/LDA_PROJECT/assets/112027405/fb66f60e-027f-4965-aacd-b49cbc40a8d8" alt="philosopher" width="600" height="400">
+
+<img src="Image/philosopher.jpg" alt="Albert Camus's books" width="600" height="400">  
 
 ### 3- Application of LDA
 Applied LDA using scikit-learn to extract significant topics from the datasets.
@@ -23,23 +24,25 @@ Evaluated the results to ensure coherence with the known themes of the documents
 ### 20 Newsgroups Dataset
 The LDA model successfully extracted significant topics from the 20 Newsgroups dataset. The topics identified were consistent with the newsgroup categories, indicating that the model was effective in distinguishing between different themes present in the dataset.
 
-- **Topic 9** represented by words like: city, town hall, work, municipality, municipal, union, public, land… can refer to the subject of the CITY.
-- **Topic 5 and Topic 2** represented by words like: Price, customer, consumption, company, order, factory… refer to the subject of the COMPANY (ENTREPRISE in French).
+- **Topic 3**: Keywords such as "space," "mail," "science," and "research" indicate discussions related to space sciences and research, fitting well with the sci.space newsgroup category.
 
-The model returns a list of probabilities of belonging to a topic as follows:
+- **Topic 8**: Keywords like "problem," "sure," "book," and "law" suggest discussions related to troubleshooting and legal matters, aligning with topics discussed in the talk.politics.misc category, covering various political discussions including legal issues.
 
+- **Topic 12**: Discussions around "system," "drive," "available," and "computer" suggest topics related to computer systems and hardware, accurately reflecting discussions in the comp.sys.ibm.pc.hardware newsgroup category.
+
+These associations illustrate the diverse range of discussions within the 20 Newsgroups dataset and highlight the LDA model's capability to uncover meaningful topics from textual data.
+
+<img src="Image/LDA_topics.png" alt="LDA_results" width="1000" height="500">  
 
 ### Albert Camus' Novels
-The LDA model also successfully extracted significant topics from the novels of Albert Camus. The identified topics aligned well with the known themes and subject matter of his works, showcasing the model's capability to capture intricate thematic elements in literary texts.
 
-- **Topic 1** represented by words like: absurd, rebellion, human condition, existentialism, freedom, meaning… reflects the existential and philosophical themes central to Camus' works.
-- **Topic 7** represented by words like: myth, Sisyphus, struggle, life, happiness, absurdity… directly correlates with the themes explored in "The Myth of Sisyphus".
+The LDA model successfully uncovered significant themes from Albert Camus' novels, reflecting the profound subjects that define his literary works. Here are two exemplary topics that closely align with the themes explored in Camus' writings:
 
-The consistency score we obtained for this model was acceptable. The figure below indicates that we have succeeded in identifying topics with an acceptable distance, i.e., there is no overlap between the topics.
+- **Topic 1**: characterized by words such as "man," "absurd," "world," "reason," "time," and "history," encapsulates the existential and philosophical essence central to Camus' exploration of the absurdity of human existence and the quest for individual freedom and meaning in a seemingly indifferent world.
 
+- **Topic 7**: represented by words like "art," "reality," "artist," "unity," "world," and "creation," directly correlates with Camus' philosophical reflections on art and the creative process, highlighting the artist's role in shaping perceptions of reality and unity within the chaotic world.
 
-
-
+These topics underscore the LDA model's capability to discern and capture the intricate thematic elements pervasive throughout Albert Camus' novels, demonstrating its adeptness in analyzing and highlighting the philosophical and existential underpinnings that define his literary legacy.
 
 
 The LDA model successfully extracted significant topics from both datasets. The topics identified from the 20 Newsgroups dataset were consistent with the newsgroup categories, and the topics from Albert Camus' novels aligned well with the known themes and subject matter of his works.
