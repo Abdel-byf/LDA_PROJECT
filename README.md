@@ -38,20 +38,21 @@ These associations illustrate the diverse range of discussions within the 20 New
 
 The LDA model successfully uncovered significant themes from Albert Camus' novels, reflecting the profound subjects that define his literary works. Here are two exemplary topics that closely align with the themes explored in Camus' writings:
 
-- **Topic 1**: characterized by words such as "man," "absurd," "world," "reason," "time," and "history," encapsulates the existential and philosophical essence central to Camus' exploration of the absurdity of human existence and the quest for individual freedom and meaning in a seemingly indifferent world.
+- **Topic 1**: characterized by words such as "man," "absurd," "world," "reason," "time," and "history," encapsulates the existential and philosophical essence central to Camus' exploration of the absurdity of human existence and the quest for individual freedom and meaning in a seemingly indifferent world. This topic resonates deeply with Camus' philosophical reflections on rebellion against the absurdity of life, where individuals confront the inherent contradictions and uncertainties of existence.
 
-- **Topic 7**: represented by words like "art," "reality," "artist," "unity," "world," and "creation," directly correlates with Camus' philosophical reflections on art and the creative process, highlighting the artist's role in shaping perceptions of reality and unity within the chaotic world.
+- **Topic 7**: represented by words like "art," "reality," "artist," "unity," "world," and "creation," directly correlates with Camus' philosophical reflections on art and the creative process, highlighting the artist's role in shaping perceptions of reality and unity within the chaotic world. This topic also touches upon Camus' portrayal of rebellion as a creative act that challenges established norms and constructs new meanings amidst the chaos of human experience.
 
 These topics underscore the LDA model's capability to discern and capture the intricate thematic elements pervasive throughout Albert Camus' novels, demonstrating its adeptness in analyzing and highlighting the philosophical and existential underpinnings that define his literary legacy.
 
+<img src="Image/Camus_results.png" alt="LDA_results" width="1000" height="500"> 
 
-The LDA model successfully extracted significant topics from both datasets. The topics identified from the 20 Newsgroups dataset were consistent with the newsgroup categories, and the topics from Albert Camus' novels aligned well with the known themes and subject matter of his works.
 
 ## Conclusion
-This project demonstrated the application of LDA for topic modeling on diverse textual data. The results validated the effectiveness of LDA in uncovering hidden thematic structures in text, providing a valuable tool for organizing and summarizing large collections of documents.
+In this project, Latent Dirichlet Allocation (LDA) has proven effective in modeling topics across two distinct datasets. Specifically, in the 20 Newsgroups dataset, LDA successfully aligned topics with predefined newsgroup categories, demonstrating its robust ability to categorize diverse textual content accurately.
+
+Moreover, when applied to Albert Camus' novels, LDA extracted significant themes such as absurdity, rebellion, and existentialism. These themes resonate deeply with the philosophical and existential underpinnings of Camus' works, illustrating LDA's capability to illuminate complex thematic elements within literary texts.
+
+Overall, this project serves as a testament to the versatility and effectiveness of LDA in uncovering hidden thematic structures across different types of textual data. By providing a systematic approach to organizing and summarizing large collections of documents, LDA emerges as a valuable tool for researchers seeking deeper insights into the underlying themes and subject matter inherent in textual corpora.
 
 ## References
 Blei, D. M., Ng, A. Y., & Jordan, M. I. (2003). Latent Dirichlet Allocation. Journal of Machine Learning Research, 3, 993-1022.
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
