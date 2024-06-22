@@ -44,7 +44,7 @@ The LDA model successfully uncovered significant themes from Albert Camus' novel
 
 These topics underscore the LDA model's capability to discern and capture the intricate thematic elements pervasive throughout Albert Camus' novels, demonstrating its adeptness in analyzing and highlighting the philosophical and existential underpinnings that define his literary legacy.
 
-<img src="Image/Camus_results.png" alt="LDA_results" width="1000" height="500"> 
+<img src="Image/Camus results.png" alt="LDA_results" width="1000" height="300"> 
 
 
 ## Conclusion
