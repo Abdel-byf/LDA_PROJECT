@@ -6,7 +6,29 @@ This project was undertaken as part of a research internship at Institut Élie C
 The project is structured into several key parts:
 
 ### 1- Literature Review
-Conducted an in-depth review and analysis of a scientific paper on LDA, particularly focusing on the work by David Blei, Andrew Ng, and Michael Jordan.
+Latent Dirichlet Allocation (LDA) is a generative statistical model used to discover abstract topics within a collection of documents. Introduced by David Blei, Andrew Ng, and Michael Jordan in 2003, LDA represents each document as a mixture of topics, where each topic is characterized by a distribution over words.
+
+- **Core Concepts of LDA**
+  - Document Representation:
+
+              Documents are mixtures of topics, and topics are distributions over words.
+    
+  - Generative Process:
+
+              For each document:
+              Determine the number of words.
+              Choose a topic distribution.
+              For each word, select a topic and then a word from that topic's distribution.
+
+  - Dirichlet Distribution:
+  
+              Used as a prior for the topic distributions across documents, controlling the sparsity of topics.
+    
+  - Parameter Estimation
+
+            Variational Inference and Expectation-Maximization (EM) Algorithm are commonly used techniques to
+            estimate the hidden variables (topic distributions and word distributions) in LDA, enabling the
+            model to infer the latent topic structure from the data.
 
 ### 2- Data Preparation
 Cleaned and prepared textual data from two sources:
