@@ -36,7 +36,6 @@ Cleaned and prepared textual data from two sources:
 Applied LDA using scikit-learn to extract significant topics from the datasets.
 Evaluated the results to ensure coherence with the known themes of the documents.
 
-
 ## Results
 ### 20 Newsgroups Dataset
 The LDA model successfully extracted significant topics from the 20 Newsgroups dataset. The topics identified were consistent with the newsgroup categories, indicating that the model was effective in distinguishing between different themes present in the dataset.
@@ -55,9 +54,9 @@ These associations illustrate the diverse range of discussions within the 20 New
 
 The LDA model successfully uncovered significant themes from Albert Camus' novels, reflecting the profound subjects that define his literary works. Here are two exemplary topics that closely align with the themes explored in Camus' writings:
 
-- **Topic 1**: characterized by words such as "man," "absurd," "world," "reason," "time," and "history," encapsulates the existential and philosophical essence central to Camus' exploration of the absurdity of human existence and the quest for individual freedom and meaning in a seemingly indifferent world. This topic resonates deeply with Camus' philosophical reflections on rebellion against the absurdity of life, where individuals confront the inherent contradictions and uncertainties of existence.
+- **Topic 0**: Characterized by words such as "man," "absurd," "world," "reason," "time," and "history," this topic encapsulates the existential and philosophical essence central to Camus' exploration of the absurdity of human existence. It delves into the quest for individual freedom and meaning in a seemingly indifferent world, resonating deeply with Camus' philosophical reflections on rebellion against life's inherent absurdity. Here, individuals confront the contradictions and uncertainties of existence, embodying the struggle for personal significance and understanding.
 
-- **Topic 7**: represented by words like "art," "reality," "artist," "unity," "world," and "creation," directly correlates with Camus' philosophical reflections on art and the creative process, highlighting the artist's role in shaping perceptions of reality and unity within the chaotic world. This topic also touches upon Camus' portrayal of rebellion as a creative act that challenges established norms and constructs new meanings amidst the chaos of human experience.
+- **Topic 2**: Represented by words like "history," "society," "artist," "revolutionary," "revolution," and "man," this topic correlates directly with Camus' philosophical reflections on art and the creative process. It highlights the artist's role in shaping perceptions of reality and fostering unity within a chaotic world. Additionally, this topic touches upon Camus' portrayal of rebellion as a creative act, challenging established norms and constructing new meanings amidst the chaos of human experience.
 
 These topics underscore the LDA model's capability to discern and capture the intricate thematic elements pervasive throughout Albert Camus' novels, demonstrating its adeptness in analyzing and highlighting the philosophical and existential underpinnings that define his literary legacy.
 
