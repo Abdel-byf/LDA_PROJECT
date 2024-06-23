@@ -8,27 +8,22 @@ The project is structured into several key parts:
 ### 1- Literature Review
 Latent Dirichlet Allocation (LDA) is a generative statistical model used to discover abstract topics within a collection of documents. Introduced by David Blei, Andrew Ng, and Michael Jordan in 2003, LDA represents each document as a mixture of topics, where each topic is characterized by a distribution over words.
 
-- **Core Concepts of LDA**
-  - Document Representation:
+#### Core Concepts of LDA:
 
-              Documents are mixtures of topics, and topics are distributions over words.
-    
-  - Generative Process:
+- **Document Representation:**
+  - Documents are mixtures of topics, and topics are distributions over words.
 
-              For each document:
-              Determine the number of words.
-              Choose a topic distribution.
-              For each word, select a topic and then a word from that topic's distribution.
+- **Generative Process:**
+  - For each document:
+    1. Determine the number of words.
+    2. Choose a topic distribution.
+    3. For each word, select a topic and then a word from that topic's distribution.
 
-  - Dirichlet Distribution:
-  
-              Used as a prior for the topic distributions across documents, controlling the sparsity of topics.
-    
-  - Parameter Estimation
+- **Dirichlet Distribution:**
+  - Used as a prior for the topic distributions across documents, controlling the sparsity of topics.
 
-            Variational Inference and Expectation-Maximization (EM) Algorithm are commonly used techniques to
-            estimate the hidden variables (topic distributions and word distributions) in LDA, enabling the
-            model to infer the latent topic structure from the data.
+- **Parameter Estimation:**
+  - Variational Inference and the Expectation-Maximization (EM) algorithm are commonly used to estimate the hidden variables (topic distributions and word distributions) in LDA. These methods infer the latent topic structure from the data.
 
 ### 2- Data Preparation
 Cleaned and prepared textual data from two sources:
@@ -66,7 +61,7 @@ The LDA model successfully uncovered significant themes from Albert Camus' novel
 
 These topics underscore the LDA model's capability to discern and capture the intricate thematic elements pervasive throughout Albert Camus' novels, demonstrating its adeptness in analyzing and highlighting the philosophical and existential underpinnings that define his literary legacy.
 
-<img src="Image/Camus results.png" alt="LDA_results" width="1000" height="300"> 
+<img src="Image/Camus results.png" alt="LDA_results" width="1000" height="250"> 
 
 
 ## Conclusion
