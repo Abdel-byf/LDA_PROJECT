@@ -1,6 +1,6 @@
 # Latent Dirichlet Allocation (LDA) Project
 ## Project Overview
-This project was undertaken as part of research at Institut Élie Cartan in Nancy, France, from March to June 2021. The main objective of the project was to explore and apply the Latent Dirichlet Allocation (LDA) model for topic modeling on textual data. The work involved a comprehensive literature review, data preparation, and the application of LDA using the scikit-learn library in Python.
+This project was undertaken as part of research at Institut Élie Cartan in Nancy, France. The main objective of the project was to explore and apply the Latent Dirichlet Allocation (LDA) model for topic modeling on textual data. The work involved a comprehensive literature review, data preparation, and the application of LDA using the scikit-learn library in Python.
 
 ## Project Structure
 The project is structured into several key parts:
